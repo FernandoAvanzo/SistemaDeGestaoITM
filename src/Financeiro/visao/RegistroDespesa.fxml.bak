@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml" fx:controller="Financeiro.visao.RegistroDespesaController">
+  <children>
+    <Label layoutX="203.0" layoutY="172.0" text="Teste" />
+  </children>
+  <stylesheets>
+    <URL value="@registrodespesa.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="1235.0" styleClass="FinanceirobackGround" xmlns:fx="http://javafx.com/fxml" fx:controller="Financeiro.visao.FinanceiroViewController">
+  <children>
+    <MenuBar prefHeight="26.0" prefWidth="1235.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="MovimentacaoFinanceira">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#setDespesa" text="Registrar Despesa" />
+            <Menu mnemonicParsing="false" text="Registro de Vencimento">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#setVencimentoFixo" text="Vencimento Fixo" />
+                <Menu mnemonicParsing="false" text="Vencimento Rotativo">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#setVencimentoRotativoParcelado" text="Parcelado" />
+                    <MenuItem mnemonicParsing="false" onAction="#setVencimentoRotativoAvista" text="A vista" />
+                  </items>
+                </Menu>
+              </items>
+            </Menu>
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Relatorios">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#setRelatorioReceita" text="Relatorio de Receitas" />
+            <MenuItem mnemonicParsing="false" onAction="#setRelatorioDespesa" text="Relatorio de Despesas" />
+            <MenuItem mnemonicParsing="false" onAction="#setRelatorioVencimento" text="Relatorio De Vencimentos" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Contas">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#setExtrato" text="Extrato" />
+            <MenuItem mnemonicParsing="false" onAction="#setSaldo" text="Saldo" />
+            <MenuItem mnemonicParsing="false" onAction="#setNovaConta" text="Nova Conta" />
+            <MenuItem mnemonicParsing="false" text="Alterar Conta" />
+            <MenuItem mnemonicParsing="false" text="Encerra Conta" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane fx:id="telasFinanceiro" layoutX="20.0" layoutY="42.0" prefHeight="467.0" prefWidth="842.0" />
+  </children>
+  <stylesheets>
+    <URL value="@financeiroFormat.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,47 @@
+
+.backGround{
+    -fx-background-image: url("background.jpg");
+    -fx-alignment: center;
+}
+
+.backGroundPanel2{
+    -fx-background-color: #b5e2bb;
+    -fx-alignment: baseline-center;
+}
+
+.robdaPe{
+    -fx-background-color: #06200a;
+}
+
+.logo{
+     -fx-background-image: url("logo.png");
+}
+
+.tab-pane{
+}
+
+.tab-pane *.tab-header-background{
+    -fx-background-image: url("abasback.png");
+}
+
+.tab-pane *.tab{
+    -fx-background-color: #c66565;
+}
+
+.tab-pane *.tab-label{
+    -fx-text-fill: #ffffff;
+}
+
+.tab-pane *.tab:hover {
+    -fx-background-color: #f4bcbc;
+}
+
+.tab-pane *.tab:selected {
+    -fx-background-color: #c49c9c;
+}
+
+.cacalho{
+    -fx-background-image: url("Titulo.png");
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml" fx:controller="Financeiro.visao.VencimentoRotativoAvistaViewController">
+  <children>
+    <Label layoutX="186.0" layoutY="129.0" text="rotativo a vista" />
+  </children>
+  <stylesheets>
+    <URL value="@vencimentorotativoavistaview.css" />
+  </stylesheets>
+</AnchorPane>

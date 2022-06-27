@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#teste" prefHeight="708.0" prefWidth="1366.0" snapToPixel="false" styleClass="backGround" xmlns:fx="http://javafx.com/fxml" fx:controller="CGITmMain.StartScreenController">
+  <children>
+    <AnchorPane layoutX="62.0" prefHeight="664.0" prefWidth="1235.0" styleClass=", backGroundPanel2">
+      <children>
+        <AnchorPane prefHeight="104.0" prefWidth="1235.0" styleClass="cacalho">
+          <stylesheets>
+            <URL value="@formatCSS.css" />
+          </stylesheets>
+        </AnchorPane>
+        <AnchorPane prefHeight="82.0" prefWidth="108.0" styleClass="logo">
+          <stylesheets>
+            <URL value="@formatCSS.css" />
+          </stylesheets>
+        </AnchorPane>
+        <TabPane cache="true" layoutY="104.0" prefHeight="563.0" prefWidth="1235.0" tabClosingPolicy="UNAVAILABLE">
+          <stylesheets>
+            <URL value="@formatCSS.css" />
+          </stylesheets>
+          <tabs>
+            <Tab text="Untitled Tab 1">
+              <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0" >
+                      <fx:include fx:id="fina" source="../Financeiro/visao/FinanceiroView.fxml"/>
+                  </VBox>
+              </content>
+            </Tab>
+            <Tab text="Untitled Tab 2">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </children>
+      <stylesheets>
+        <URL value="@formatCSS.css" />
+      </stylesheets>
+    </AnchorPane>
+    <AnchorPane layoutX="62.0" layoutY="667.0" prefHeight="68.0" prefWidth="1235.0" styleClass="robdaPe">
+      <stylesheets>
+        <URL value="@formatCSS.css" />
+      </stylesheets>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@formatCSS.css" />
+  </stylesheets>
+</AnchorPane>
